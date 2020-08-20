@@ -8,12 +8,29 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
+    lazy var httpService: MAJIService = {
+        return MAJIService.init(del: self)
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        requestData()
+   
     }
 
+    func requestData()  {
+        httpService.requestHomeData()
+    }
+}
+extension ViewController: MAJIServiceDelegate {
+    func requestHomeDataResponse(isSuc: Bool, message: String, successData: [HomeModel]?) {
+        if isSuc {
+            
+        }
+    }
+    
 }
 

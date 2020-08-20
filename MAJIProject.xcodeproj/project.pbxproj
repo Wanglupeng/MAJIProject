@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,13 @@
 		0441C77E24EE7C4E00A5E52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441C77C24EE7C4E00A5E52F /* LaunchScreen.storyboard */; };
 		0441C78924EE7C4E00A5E52F /* MAJIProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C78824EE7C4E00A5E52F /* MAJIProjectTests.swift */; };
 		0441C79424EE7C4E00A5E52F /* MAJIProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C79324EE7C4E00A5E52F /* MAJIProjectUITests.swift */; };
+		AD6DD97B0464FB39EA96570D /* Pods_MAJIProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013CC7EEC5826898D5D71670 /* Pods_MAJIProject.framework */; };
+		B8EC66DF24EEAACB0046C3DB /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66DE24EEAACB0046C3DB /* NetworkClient.swift */; };
+		B8EC66E324EEB0390046C3DB /* MAJIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66E224EEB0390046C3DB /* MAJIService.swift */; };
+		B8EC66E524EEB5F50046C3DB /* BaseRequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66E424EEB5F50046C3DB /* BaseRequestAPI.swift */; };
+		B8EC66E724EEB6040046C3DB /* APPDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66E624EEB6040046C3DB /* APPDefinition.swift */; };
+		B8EC66E924EEB6890046C3DB /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66E824EEB6890046C3DB /* HomeModel.swift */; };
+		B8EC66EB24EEBF2A0046C3DB /* FMDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66EA24EEBF2A0046C3DB /* FMDBManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013CC7EEC5826898D5D71670 /* Pods_MAJIProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAJIProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0441C76E24EE7C4C00A5E52F /* MAJIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAJIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0441C77124EE7C4C00A5E52F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0441C77524EE7C4C00A5E52F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,15 @@
 		0441C78F24EE7C4E00A5E52F /* MAJIProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAJIProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0441C79324EE7C4E00A5E52F /* MAJIProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAJIProjectUITests.swift; sourceTree = "<group>"; };
 		0441C79524EE7C4E00A5E52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752080B1ED49CEB3EBFCFAE1 /* Pods-MAJIProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAJIProject.debug.xcconfig"; path = "Target Support Files/Pods-MAJIProject/Pods-MAJIProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A8BB3959B2FF85EC728CE6F4 /* Pods-MAJIProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAJIProject.release.xcconfig"; path = "Target Support Files/Pods-MAJIProject/Pods-MAJIProject.release.xcconfig"; sourceTree = "<group>"; };
+		B8EC66D524EEA3EF0046C3DB /* MAJIProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MAJIProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		B8EC66DE24EEAACB0046C3DB /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		B8EC66E224EEB0390046C3DB /* MAJIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAJIService.swift; sourceTree = "<group>"; };
+		B8EC66E424EEB5F50046C3DB /* BaseRequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequestAPI.swift; sourceTree = "<group>"; };
+		B8EC66E624EEB6040046C3DB /* APPDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPDefinition.swift; sourceTree = "<group>"; };
+		B8EC66E824EEB6890046C3DB /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		B8EC66EA24EEBF2A0046C3DB /* FMDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDBManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6DD97B0464FB39EA96570D /* Pods_MAJIProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,8 @@
 				0441C78724EE7C4E00A5E52F /* MAJIProjectTests */,
 				0441C79224EE7C4E00A5E52F /* MAJIProjectUITests */,
 				0441C76F24EE7C4C00A5E52F /* Products */,
+				39A680EA313443DA09D3B216 /* Pods */,
+				E5299620D140536E431CC533 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +117,18 @@
 		0441C77024EE7C4C00A5E52F /* MAJIProject */ = {
 			isa = PBXGroup;
 			children = (
+				B8EC66DD24EEAA810046C3DB /* Tools */,
+				B8EC66DC24EEA7420046C3DB /* HTTPService */,
+				B8EC66DB24EEA73C0046C3DB /* View */,
+				B8EC66DA24EEA7310046C3DB /* Model */,
+				B8EC66D924EEA7290046C3DB /* Controller */,
 				0441C77124EE7C4C00A5E52F /* AppDelegate.swift */,
 				0441C77524EE7C4C00A5E52F /* ViewController.swift */,
 				0441C77724EE7C4C00A5E52F /* Main.storyboard */,
 				0441C77A24EE7C4E00A5E52F /* Assets.xcassets */,
 				0441C77C24EE7C4E00A5E52F /* LaunchScreen.storyboard */,
 				0441C77F24EE7C4E00A5E52F /* Info.plist */,
+				B8EC66D524EEA3EF0046C3DB /* MAJIProject-Bridging-Header.h */,
 			);
 			path = MAJIProject;
 			sourceTree = "<group>";
@@ -125,6 +151,64 @@
 			path = MAJIProjectUITests;
 			sourceTree = "<group>";
 		};
+		39A680EA313443DA09D3B216 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				752080B1ED49CEB3EBFCFAE1 /* Pods-MAJIProject.debug.xcconfig */,
+				A8BB3959B2FF85EC728CE6F4 /* Pods-MAJIProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8EC66D924EEA7290046C3DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8EC66DA24EEA7310046C3DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC66E824EEB6890046C3DB /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8EC66DB24EEA73C0046C3DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8EC66DC24EEA7420046C3DB /* HTTPService */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC66E224EEB0390046C3DB /* MAJIService.swift */,
+			);
+			path = HTTPService;
+			sourceTree = "<group>";
+		};
+		B8EC66DD24EEAA810046C3DB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B8EC66DE24EEAACB0046C3DB /* NetworkClient.swift */,
+				B8EC66E424EEB5F50046C3DB /* BaseRequestAPI.swift */,
+				B8EC66E624EEB6040046C3DB /* APPDefinition.swift */,
+				B8EC66EA24EEBF2A0046C3DB /* FMDBManager.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E5299620D140536E431CC533 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013CC7EEC5826898D5D71670 /* Pods_MAJIProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0441C79824EE7C4E00A5E52F /* Build configuration list for PBXNativeTarget "MAJIProject" */;
 			buildPhases = (
+				00CDA88EEC67E10262B86485 /* [CP] Check Pods Manifest.lock */,
 				0441C76A24EE7C4C00A5E52F /* Sources */,
 				0441C76B24EE7C4C00A5E52F /* Frameworks */,
 				0441C76C24EE7C4C00A5E52F /* Resources */,
+				EF8C7153B10E23D834FB3E9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +279,7 @@
 				TargetAttributes = {
 					0441C76D24EE7C4C00A5E52F = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1150;
 					};
 					0441C78324EE7C4E00A5E52F = {
 						CreatedOnToolsVersion = 11.6;
@@ -251,13 +338,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00CDA88EEC67E10262B86485 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAJIProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF8C7153B10E23D834FB3E9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAJIProject/Pods-MAJIProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAJIProject/Pods-MAJIProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAJIProject/Pods-MAJIProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0441C76A24EE7C4C00A5E52F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EC66EB24EEBF2A0046C3DB /* FMDBManager.swift in Sources */,
+				B8EC66E524EEB5F50046C3DB /* BaseRequestAPI.swift in Sources */,
 				0441C77624EE7C4C00A5E52F /* ViewController.swift in Sources */,
+				B8EC66E724EEB6040046C3DB /* APPDefinition.swift in Sources */,
+				B8EC66E924EEB6890046C3DB /* HomeModel.swift in Sources */,
 				0441C77224EE7C4C00A5E52F /* AppDelegate.swift in Sources */,
+				B8EC66E324EEB0390046C3DB /* MAJIService.swift in Sources */,
+				B8EC66DF24EEAACB0046C3DB /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +563,10 @@
 		};
 		0441C79924EE7C4E00A5E52F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752080B1ED49CEB3EBFCFAE1 /* Pods-MAJIProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 849Q9294D2;
 				INFOPLIST_FILE = MAJIProject/Info.plist;
@@ -439,6 +576,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.modu.MAJIProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MAJIProject/MAJIProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,8 +585,10 @@
 		};
 		0441C79A24EE7C4E00A5E52F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BB3959B2FF85EC728CE6F4 /* Pods-MAJIProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 849Q9294D2;
 				INFOPLIST_FILE = MAJIProject/Info.plist;
@@ -457,6 +598,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.modu.MAJIProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MAJIProject/MAJIProject-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

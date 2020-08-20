@@ -1,0 +1,6 @@
+framework module Pods_MAJIProject {
+  umbrella header "Pods-MAJIProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

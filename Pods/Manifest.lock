@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.2.2)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MJRefresh (3.5.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - FMDB
+  - MJRefresh
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FMDB
+    - MJRefresh
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+
+PODFILE CHECKSUM: 2423702b75e4e62c7d15f05f11a9378615d585b3
+
+COCOAPODS: 1.9.3
