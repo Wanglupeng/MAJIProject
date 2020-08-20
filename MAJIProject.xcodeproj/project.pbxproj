@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0441C77224EE7C4C00A5E52F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C77124EE7C4C00A5E52F /* AppDelegate.swift */; };
+		0441C77424EE7C4C00A5E52F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C77324EE7C4C00A5E52F /* SceneDelegate.swift */; };
+		0441C77624EE7C4C00A5E52F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C77524EE7C4C00A5E52F /* ViewController.swift */; };
+		0441C77924EE7C4C00A5E52F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441C77724EE7C4C00A5E52F /* Main.storyboard */; };
+		0441C77B24EE7C4E00A5E52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0441C77A24EE7C4E00A5E52F /* Assets.xcassets */; };
+		0441C77E24EE7C4E00A5E52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441C77C24EE7C4E00A5E52F /* LaunchScreen.storyboard */; };
+		0441C78924EE7C4E00A5E52F /* MAJIProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C78824EE7C4E00A5E52F /* MAJIProjectTests.swift */; };
+		0441C79424EE7C4E00A5E52F /* MAJIProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C79324EE7C4E00A5E52F /* MAJIProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0441C78524EE7C4E00A5E52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0441C76624EE7C4C00A5E52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0441C76D24EE7C4C00A5E52F;
+			remoteInfo = MAJIProject;
+		};
+		0441C79024EE7C4E00A5E52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0441C76624EE7C4C00A5E52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0441C76D24EE7C4C00A5E52F;
+			remoteInfo = MAJIProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0441C76E24EE7C4C00A5E52F /* MAJIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAJIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0441C77124EE7C4C00A5E52F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0441C77324EE7C4C00A5E52F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0441C77524EE7C4C00A5E52F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0441C77824EE7C4C00A5E52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0441C77A24EE7C4E00A5E52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0441C77D24EE7C4E00A5E52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0441C77F24EE7C4E00A5E52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0441C78424EE7C4E00A5E52F /* MAJIProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAJIProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0441C78824EE7C4E00A5E52F /* MAJIProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAJIProjectTests.swift; sourceTree = "<group>"; };
+		0441C78A24EE7C4E00A5E52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0441C78F24EE7C4E00A5E52F /* MAJIProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAJIProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0441C79324EE7C4E00A5E52F /* MAJIProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAJIProjectUITests.swift; sourceTree = "<group>"; };
+		0441C79524EE7C4E00A5E52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0441C76B24EE7C4C00A5E52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0441C78124EE7C4E00A5E52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0441C78C24EE7C4E00A5E52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0441C76524EE7C4C00A5E52F = {
+			isa = PBXGroup;
+			children = (
+				0441C77024EE7C4C00A5E52F /* MAJIProject */,
+				0441C78724EE7C4E00A5E52F /* MAJIProjectTests */,
+				0441C79224EE7C4E00A5E52F /* MAJIProjectUITests */,
+				0441C76F24EE7C4C00A5E52F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0441C76F24EE7C4C00A5E52F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0441C76E24EE7C4C00A5E52F /* MAJIProject.app */,
+				0441C78424EE7C4E00A5E52F /* MAJIProjectTests.xctest */,
+				0441C78F24EE7C4E00A5E52F /* MAJIProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0441C77024EE7C4C00A5E52F /* MAJIProject */ = {
+			isa = PBXGroup;
+			children = (
+				0441C77124EE7C4C00A5E52F /* AppDelegate.swift */,
+				0441C77324EE7C4C00A5E52F /* SceneDelegate.swift */,
+				0441C77524EE7C4C00A5E52F /* ViewController.swift */,
+				0441C77724EE7C4C00A5E52F /* Main.storyboard */,
+				0441C77A24EE7C4E00A5E52F /* Assets.xcassets */,
+				0441C77C24EE7C4E00A5E52F /* LaunchScreen.storyboard */,
+				0441C77F24EE7C4E00A5E52F /* Info.plist */,
+			);
+			path = MAJIProject;
+			sourceTree = "<group>";
+		};
+		0441C78724EE7C4E00A5E52F /* MAJIProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				0441C78824EE7C4E00A5E52F /* MAJIProjectTests.swift */,
+				0441C78A24EE7C4E00A5E52F /* Info.plist */,
+			);
+			path = MAJIProjectTests;
+			sourceTree = "<group>";
+		};
+		0441C79224EE7C4E00A5E52F /* MAJIProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0441C79324EE7C4E00A5E52F /* MAJIProjectUITests.swift */,
+				0441C79524EE7C4E00A5E52F /* Info.plist */,
+			);
+			path = MAJIProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0441C76D24EE7C4C00A5E52F /* MAJIProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0441C79824EE7C4E00A5E52F /* Build configuration list for PBXNativeTarget "MAJIProject" */;
+			buildPhases = (
+				0441C76A24EE7C4C00A5E52F /* Sources */,
+				0441C76B24EE7C4C00A5E52F /* Frameworks */,
+				0441C76C24EE7C4C00A5E52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAJIProject;
+			productName = MAJIProject;
+			productReference = 0441C76E24EE7C4C00A5E52F /* MAJIProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0441C78324EE7C4E00A5E52F /* MAJIProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0441C79B24EE7C4E00A5E52F /* Build configuration list for PBXNativeTarget "MAJIProjectTests" */;
+			buildPhases = (
+				0441C78024EE7C4E00A5E52F /* Sources */,
+				0441C78124EE7C4E00A5E52F /* Frameworks */,
+				0441C78224EE7C4E00A5E52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0441C78624EE7C4E00A5E52F /* PBXTargetDependency */,
+			);
+			name = MAJIProjectTests;
+			productName = MAJIProjectTests;
+			productReference = 0441C78424EE7C4E00A5E52F /* MAJIProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0441C78E24EE7C4E00A5E52F /* MAJIProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0441C79E24EE7C4E00A5E52F /* Build configuration list for PBXNativeTarget "MAJIProjectUITests" */;
+			buildPhases = (
+				0441C78B24EE7C4E00A5E52F /* Sources */,
+				0441C78C24EE7C4E00A5E52F /* Frameworks */,
+				0441C78D24EE7C4E00A5E52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0441C79124EE7C4E00A5E52F /* PBXTargetDependency */,
+			);
+			name = MAJIProjectUITests;
+			productName = MAJIProjectUITests;
+			productReference = 0441C78F24EE7C4E00A5E52F /* MAJIProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0441C76624EE7C4C00A5E52F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					0441C76D24EE7C4C00A5E52F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					0441C78324EE7C4E00A5E52F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 0441C76D24EE7C4C00A5E52F;
+					};
+					0441C78E24EE7C4E00A5E52F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 0441C76D24EE7C4C00A5E52F;
+					};
+				};
+			};
+			buildConfigurationList = 0441C76924EE7C4C00A5E52F /* Build configuration list for PBXProject "MAJIProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0441C76524EE7C4C00A5E52F;
+			productRefGroup = 0441C76F24EE7C4C00A5E52F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0441C76D24EE7C4C00A5E52F /* MAJIProject */,
+				0441C78324EE7C4E00A5E52F /* MAJIProjectTests */,
+				0441C78E24EE7C4E00A5E52F /* MAJIProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0441C76C24EE7C4C00A5E52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0441C77E24EE7C4E00A5E52F /* LaunchScreen.storyboard in Resources */,
+				0441C77B24EE7C4E00A5E52F /* Assets.xcassets in Resources */,
+				0441C77924EE7C4C00A5E52F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0441C78224EE7C4E00A5E52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0441C78D24EE7C4E00A5E52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0441C76A24EE7C4C00A5E52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0441C77624EE7C4C00A5E52F /* ViewController.swift in Sources */,
+				0441C77224EE7C4C00A5E52F /* AppDelegate.swift in Sources */,
+				0441C77424EE7C4C00A5E52F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0441C78024EE7C4E00A5E52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0441C78924EE7C4E00A5E52F /* MAJIProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0441C78B24EE7C4E00A5E52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0441C79424EE7C4E00A5E52F /* MAJIProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0441C78624EE7C4E00A5E52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0441C76D24EE7C4C00A5E52F /* MAJIProject */;
+			targetProxy = 0441C78524EE7C4E00A5E52F /* PBXContainerItemProxy */;
+		};
+		0441C79124EE7C4E00A5E52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0441C76D24EE7C4C00A5E52F /* MAJIProject */;
+			targetProxy = 0441C79024EE7C4E00A5E52F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0441C77724EE7C4C00A5E52F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0441C77824EE7C4C00A5E52F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0441C77C24EE7C4E00A5E52F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0441C77D24EE7C4E00A5E52F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0441C79624EE7C4E00A5E52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0441C79724EE7C4E00A5E52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0441C79924EE7C4E00A5E52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 849Q9294D2;
+				INFOPLIST_FILE = MAJIProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modu.MAJIProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0441C79A24EE7C4E00A5E52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 849Q9294D2;
+				INFOPLIST_FILE = MAJIProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modu.MAJIProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0441C79C24EE7C4E00A5E52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 849Q9294D2;
+				INFOPLIST_FILE = MAJIProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modu.MAJIProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAJIProject.app/MAJIProject";
+			};
+			name = Debug;
+		};
+		0441C79D24EE7C4E00A5E52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 849Q9294D2;
+				INFOPLIST_FILE = MAJIProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modu.MAJIProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAJIProject.app/MAJIProject";
+			};
+			name = Release;
+		};
+		0441C79F24EE7C4E00A5E52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 849Q9294D2;
+				INFOPLIST_FILE = MAJIProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modu.MAJIProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MAJIProject;
+			};
+			name = Debug;
+		};
+		0441C7A024EE7C4E00A5E52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 849Q9294D2;
+				INFOPLIST_FILE = MAJIProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modu.MAJIProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MAJIProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0441C76924EE7C4C00A5E52F /* Build configuration list for PBXProject "MAJIProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0441C79624EE7C4E00A5E52F /* Debug */,
+				0441C79724EE7C4E00A5E52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0441C79824EE7C4E00A5E52F /* Build configuration list for PBXNativeTarget "MAJIProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0441C79924EE7C4E00A5E52F /* Debug */,
+				0441C79A24EE7C4E00A5E52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0441C79B24EE7C4E00A5E52F /* Build configuration list for PBXNativeTarget "MAJIProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0441C79C24EE7C4E00A5E52F /* Debug */,
+				0441C79D24EE7C4E00A5E52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0441C79E24EE7C4E00A5E52F /* Build configuration list for PBXNativeTarget "MAJIProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0441C79F24EE7C4E00A5E52F /* Debug */,
+				0441C7A024EE7C4E00A5E52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0441C76624EE7C4C00A5E52F /* Project object */;
+}
