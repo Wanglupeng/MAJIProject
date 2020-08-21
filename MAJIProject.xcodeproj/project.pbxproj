@@ -14,6 +14,13 @@
 		0441C77E24EE7C4E00A5E52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441C77C24EE7C4E00A5E52F /* LaunchScreen.storyboard */; };
 		0441C78924EE7C4E00A5E52F /* MAJIProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C78824EE7C4E00A5E52F /* MAJIProjectTests.swift */; };
 		0441C79424EE7C4E00A5E52F /* MAJIProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C79324EE7C4E00A5E52F /* MAJIProjectUITests.swift */; };
+		04C761D724EF63D6003A9C8F /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C761D624EF63D6003A9C8F /* BaseTableViewController.swift */; };
+		04C761D924EF695B003A9C8F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C761D824EF695B003A9C8F /* HistoryViewController.swift */; };
+		04C761DC24EF9D7F003A9C8F /* ShowUrlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C761DA24EF9D7F003A9C8F /* ShowUrlTableViewCell.swift */; };
+		04C761DD24EF9D7F003A9C8F /* ShowUrlTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C761DB24EF9D7F003A9C8F /* ShowUrlTableViewCell.xib */; };
+		04C761DF24EF9EBB003A9C8F /* TableViewSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C761DE24EF9EBB003A9C8F /* TableViewSectionView.swift */; };
+		04C761E124EFA5D1003A9C8F /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C761E024EFA5D1003A9C8F /* GroupModel.swift */; };
+		04C761E324EFBCE7003A9C8F /* RefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C761E224EFBCE7003A9C8F /* RefreshHeader.swift */; };
 		AD6DD97B0464FB39EA96570D /* Pods_MAJIProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013CC7EEC5826898D5D71670 /* Pods_MAJIProject.framework */; };
 		B8EC66DF24EEAACB0046C3DB /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66DE24EEAACB0046C3DB /* NetworkClient.swift */; };
 		B8EC66E324EEB0390046C3DB /* MAJIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66E224EEB0390046C3DB /* MAJIService.swift */; };
@@ -55,6 +62,13 @@
 		0441C78F24EE7C4E00A5E52F /* MAJIProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAJIProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0441C79324EE7C4E00A5E52F /* MAJIProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAJIProjectUITests.swift; sourceTree = "<group>"; };
 		0441C79524EE7C4E00A5E52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C761D624EF63D6003A9C8F /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		04C761D824EF695B003A9C8F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		04C761DA24EF9D7F003A9C8F /* ShowUrlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShowUrlTableViewCell.swift; path = MAJIProject/Controller/ShowUrlTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		04C761DB24EF9D7F003A9C8F /* ShowUrlTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ShowUrlTableViewCell.xib; path = MAJIProject/Controller/ShowUrlTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		04C761DE24EF9EBB003A9C8F /* TableViewSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewSectionView.swift; path = MAJIProject/Controller/TableViewSectionView.swift; sourceTree = SOURCE_ROOT; };
+		04C761E024EFA5D1003A9C8F /* GroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
+		04C761E224EFBCE7003A9C8F /* RefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshHeader.swift; sourceTree = "<group>"; };
 		752080B1ED49CEB3EBFCFAE1 /* Pods-MAJIProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAJIProject.debug.xcconfig"; path = "Target Support Files/Pods-MAJIProject/Pods-MAJIProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A8BB3959B2FF85EC728CE6F4 /* Pods-MAJIProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAJIProject.release.xcconfig"; path = "Target Support Files/Pods-MAJIProject/Pods-MAJIProject.release.xcconfig"; sourceTree = "<group>"; };
 		B8EC66D524EEA3EF0046C3DB /* MAJIProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MAJIProject-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -117,13 +131,12 @@
 		0441C77024EE7C4C00A5E52F /* MAJIProject */ = {
 			isa = PBXGroup;
 			children = (
+				04C761D524EF63B9003A9C8F /* Controller */,
 				B8EC66DD24EEAA810046C3DB /* Tools */,
 				B8EC66DC24EEA7420046C3DB /* HTTPService */,
 				B8EC66DB24EEA73C0046C3DB /* View */,
 				B8EC66DA24EEA7310046C3DB /* Model */,
-				B8EC66D924EEA7290046C3DB /* Controller */,
 				0441C77124EE7C4C00A5E52F /* AppDelegate.swift */,
-				0441C77524EE7C4C00A5E52F /* ViewController.swift */,
 				0441C77724EE7C4C00A5E52F /* Main.storyboard */,
 				0441C77A24EE7C4E00A5E52F /* Assets.xcassets */,
 				0441C77C24EE7C4E00A5E52F /* LaunchScreen.storyboard */,
@@ -151,6 +164,16 @@
 			path = MAJIProjectUITests;
 			sourceTree = "<group>";
 		};
+		04C761D524EF63B9003A9C8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04C761D624EF63D6003A9C8F /* BaseTableViewController.swift */,
+				0441C77524EE7C4C00A5E52F /* ViewController.swift */,
+				04C761D824EF695B003A9C8F /* HistoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		39A680EA313443DA09D3B216 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,17 +183,11 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		B8EC66D924EEA7290046C3DB /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		B8EC66DA24EEA7310046C3DB /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				B8EC66E824EEB6890046C3DB /* HomeModel.swift */,
+				04C761E024EFA5D1003A9C8F /* GroupModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,6 +195,9 @@
 		B8EC66DB24EEA73C0046C3DB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04C761DA24EF9D7F003A9C8F /* ShowUrlTableViewCell.swift */,
+				04C761DB24EF9D7F003A9C8F /* ShowUrlTableViewCell.xib */,
+				04C761DE24EF9EBB003A9C8F /* TableViewSectionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -197,6 +217,7 @@
 				B8EC66E424EEB5F50046C3DB /* BaseRequestAPI.swift */,
 				B8EC66E624EEB6040046C3DB /* APPDefinition.swift */,
 				B8EC66EA24EEBF2A0046C3DB /* FMDBManager.swift */,
+				04C761E224EFBCE7003A9C8F /* RefreshHeader.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -316,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C761DD24EF9D7F003A9C8F /* ShowUrlTableViewCell.xib in Resources */,
 				0441C77E24EE7C4E00A5E52F /* LaunchScreen.storyboard in Resources */,
 				0441C77B24EE7C4E00A5E52F /* Assets.xcassets in Resources */,
 				0441C77924EE7C4C00A5E52F /* Main.storyboard in Resources */,
@@ -385,14 +407,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C761DF24EF9EBB003A9C8F /* TableViewSectionView.swift in Sources */,
+				04C761D724EF63D6003A9C8F /* BaseTableViewController.swift in Sources */,
 				B8EC66EB24EEBF2A0046C3DB /* FMDBManager.swift in Sources */,
 				B8EC66E524EEB5F50046C3DB /* BaseRequestAPI.swift in Sources */,
+				04C761D924EF695B003A9C8F /* HistoryViewController.swift in Sources */,
 				0441C77624EE7C4C00A5E52F /* ViewController.swift in Sources */,
 				B8EC66E724EEB6040046C3DB /* APPDefinition.swift in Sources */,
 				B8EC66E924EEB6890046C3DB /* HomeModel.swift in Sources */,
 				0441C77224EE7C4C00A5E52F /* AppDelegate.swift in Sources */,
+				04C761E124EFA5D1003A9C8F /* GroupModel.swift in Sources */,
 				B8EC66E324EEB0390046C3DB /* MAJIService.swift in Sources */,
 				B8EC66DF24EEAACB0046C3DB /* NetworkClient.swift in Sources */,
+				04C761E324EFBCE7003A9C8F /* RefreshHeader.swift in Sources */,
+				04C761DC24EF9D7F003A9C8F /* ShowUrlTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

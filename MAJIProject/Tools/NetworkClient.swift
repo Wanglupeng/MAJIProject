@@ -12,22 +12,35 @@ import Alamofire
 class NetworkClient: NSObject {
     static let manager = NetworkClient()
  
-    func requestWithAPI(Api: BaseRequestAPI , _ successData:((Any)->Void)?, _ errorData:((AFError)->Void)?)  {
-        AF.request(Api.APIUrl, method: Api.APIMethod, parameters: Api.APIParams).responseJSON { (responseObj) in
+    func requestWithAPI(Api: BaseRequestAPI , _ successResponse:((Any)->Void)?, _ errorResponse:((Error)->Void)?)  {
+        var requestData: DataRequest?
+        switch Api.APIMethod {
+        case .Get:
+            requestData = AF.request(Api.APIUrl, method: .get, parameters: Api.APIParams)
+        case.Post:
+            requestData = AF.request(Api.APIUrl, method: .post, parameters: Api.APIParams)
+        default:
+            //目前先不处理其他类型请求
+            requestData = AF.request(Api.APIUrl, method: .post, parameters: Api.APIParams)
+        }
+        
+        guard let request = requestData else {
+            return
+        }
+       
+        request.responseJSON { (responseObj) in
             switch responseObj.result {
             case .success(let json):
-                successData?(json)
-                break
-            case .failure(let error):
-                errorData?(error)
-                break
+                successResponse?(json)
+            case .failure(let errorData):
+                if let error = errorData.underlyingError {
+                    LLog(error.localizedDescription)
+                    errorResponse?(error)
+                }
             }
         }
     }
     
-    func jsonToDIc()  {
-        
-    }
 }
 
 

@@ -7,10 +7,10 @@
 //
 
 import UIKit
-import Alamofire
+
 
 class BaseRequestAPI: NSObject {
     var APIUrl: String = ""
     var APIParams: [String: Any]?
-    var APIMethod: HTTPMethod = .get
+    var APIMethod: RequestMethod = .Get
 }

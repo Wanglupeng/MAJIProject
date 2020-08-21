@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Alamofire
 
 @objc protocol MAJIServiceDelegate: NSObjectProtocol {
     @objc optional func requestHomeDataResponse(isSuc: Bool, message: String ,successData: [HomeModel]?)
@@ -21,12 +20,13 @@ class MAJIService: NSObject {
     
     func requestHomeData()  {
         let api = BaseRequestAPI()
-        api.APIMethod = .get
+        api.APIMethod = .Get
         api.APIParams = nil
         api.APIUrl = RequestUrlDomain
         NetworkClient.manager.requestWithAPI(Api: api, { (successData) in
+            self.resoveData(data: successData)
         }) { (errorData) in
-            self.delegate?.requestHomeDataResponse?(isSuc: false, message: "NET ERROR", successData: nil)
+            self.delegate?.requestHomeDataResponse?(isSuc: false, message: DefaultErrorMsg, successData: nil)
         }
     }
     
@@ -34,11 +34,18 @@ class MAJIService: NSObject {
     private func resoveData(data: Any)  {
         var resultArray = [HomeModel]()
         if let data = data as? Dictionary<String,AnyObject> {
+            let time = getNowTimeStamp()
             for item in data {
                 let model = HomeModel.init(key: item.key, value: item.value)
+                model.currentTime = time
+                if item.key.contains("documentation_url") || item.key.contains("message") {
+                    return
+                }
                 resultArray.append(model)
             }
         }
-        self.delegate?.requestHomeDataResponse?(isSuc: true, message: "SUCCESS", successData: resultArray)
+        //Save to db
+        FMDBManager.manager.insertDataToTable(datas: resultArray)
+        self.delegate?.requestHomeDataResponse?(isSuc: true, message: DefaultSuccessMsg, successData: resultArray)
     }
 }
