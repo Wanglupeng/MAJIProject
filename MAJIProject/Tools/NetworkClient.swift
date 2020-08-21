@@ -34,7 +34,6 @@ class NetworkClient: NSObject {
                 successResponse?(json)
             case .failure(let errorData):
                 if let error = errorData.underlyingError {
-                    LLog(error.localizedDescription)
                     errorResponse?(error)
                 }
             }

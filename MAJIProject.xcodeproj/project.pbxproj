@@ -21,7 +21,10 @@
 		04C761DF24EF9EBB003A9C8F /* TableViewSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C761DE24EF9EBB003A9C8F /* TableViewSectionView.swift */; };
 		04C761E124EFA5D1003A9C8F /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C761E024EFA5D1003A9C8F /* GroupModel.swift */; };
 		04C761E324EFBCE7003A9C8F /* RefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C761E224EFBCE7003A9C8F /* RefreshHeader.swift */; };
+		119F39F5E87872F86AB293E3 /* libPods-MAJIProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB51BB95342456E2D76F458 /* libPods-MAJIProjectUITests.a */; };
+		7DD10143B79185D762A81D54 /* libPods-MAJIProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1BFEB91AA02A6A42501FAF /* libPods-MAJIProjectTests.a */; };
 		AD6DD97B0464FB39EA96570D /* Pods_MAJIProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013CC7EEC5826898D5D71670 /* Pods_MAJIProject.framework */; };
+		B87BD82624F0184800F15172 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD82524F0184800F15172 /* HistoryViewController.swift */; };
 		B8EC66DF24EEAACB0046C3DB /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66DE24EEAACB0046C3DB /* NetworkClient.swift */; };
 		B8EC66E324EEB0390046C3DB /* MAJIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66E224EEB0390046C3DB /* MAJIService.swift */; };
 		B8EC66E524EEB5F50046C3DB /* BaseRequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66E424EEB5F50046C3DB /* BaseRequestAPI.swift */; };
@@ -69,8 +72,11 @@
 		04C761DE24EF9EBB003A9C8F /* TableViewSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewSectionView.swift; path = MAJIProject/Controller/TableViewSectionView.swift; sourceTree = SOURCE_ROOT; };
 		04C761E024EFA5D1003A9C8F /* GroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
 		04C761E224EFBCE7003A9C8F /* RefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshHeader.swift; sourceTree = "<group>"; };
+		6BAD45F600685ED22E631D0C /* Pods-MAJIProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAJIProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-MAJIProjectUITests/Pods-MAJIProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EB51BB95342456E2D76F458 /* libPods-MAJIProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAJIProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		752080B1ED49CEB3EBFCFAE1 /* Pods-MAJIProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAJIProject.debug.xcconfig"; path = "Target Support Files/Pods-MAJIProject/Pods-MAJIProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A8BB3959B2FF85EC728CE6F4 /* Pods-MAJIProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAJIProject.release.xcconfig"; path = "Target Support Files/Pods-MAJIProject/Pods-MAJIProject.release.xcconfig"; sourceTree = "<group>"; };
+		B87BD82524F0184800F15172 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		B8EC66D524EEA3EF0046C3DB /* MAJIProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MAJIProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		B8EC66DE24EEAACB0046C3DB /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		B8EC66E224EEB0390046C3DB /* MAJIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAJIService.swift; sourceTree = "<group>"; };
@@ -78,6 +84,10 @@
 		B8EC66E624EEB6040046C3DB /* APPDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APPDefinition.swift; sourceTree = "<group>"; };
 		B8EC66E824EEB6890046C3DB /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		B8EC66EA24EEBF2A0046C3DB /* FMDBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDBManager.swift; sourceTree = "<group>"; };
+		D28661B31DDA42396BCE8CEF /* Pods-MAJIProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAJIProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-MAJIProjectTests/Pods-MAJIProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4A697249D24937BF5B19821 /* Pods-MAJIProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAJIProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-MAJIProjectUITests/Pods-MAJIProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F7AA11E53778937CBB7322A3 /* Pods-MAJIProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAJIProjectTests.release.xcconfig"; path = "Target Support Files/Pods-MAJIProjectTests/Pods-MAJIProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB1BFEB91AA02A6A42501FAF /* libPods-MAJIProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAJIProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD10143B79185D762A81D54 /* libPods-MAJIProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				119F39F5E87872F86AB293E3 /* libPods-MAJIProjectUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +163,7 @@
 			children = (
 				0441C78824EE7C4E00A5E52F /* MAJIProjectTests.swift */,
 				0441C78A24EE7C4E00A5E52F /* Info.plist */,
+				B87BD82524F0184800F15172 /* HistoryViewController.swift */,
 			);
 			path = MAJIProjectTests;
 			sourceTree = "<group>";
@@ -179,6 +192,10 @@
 			children = (
 				752080B1ED49CEB3EBFCFAE1 /* Pods-MAJIProject.debug.xcconfig */,
 				A8BB3959B2FF85EC728CE6F4 /* Pods-MAJIProject.release.xcconfig */,
+				D28661B31DDA42396BCE8CEF /* Pods-MAJIProjectTests.debug.xcconfig */,
+				F7AA11E53778937CBB7322A3 /* Pods-MAJIProjectTests.release.xcconfig */,
+				6BAD45F600685ED22E631D0C /* Pods-MAJIProjectUITests.debug.xcconfig */,
+				D4A697249D24937BF5B19821 /* Pods-MAJIProjectUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -226,6 +243,8 @@
 			isa = PBXGroup;
 			children = (
 				013CC7EEC5826898D5D71670 /* Pods_MAJIProject.framework */,
+				FB1BFEB91AA02A6A42501FAF /* libPods-MAJIProjectTests.a */,
+				6EB51BB95342456E2D76F458 /* libPods-MAJIProjectUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0441C79B24EE7C4E00A5E52F /* Build configuration list for PBXNativeTarget "MAJIProjectTests" */;
 			buildPhases = (
+				F49AA5EC8CF7C1D7DDAB2AF3 /* [CP] Check Pods Manifest.lock */,
 				0441C78024EE7C4E00A5E52F /* Sources */,
 				0441C78124EE7C4E00A5E52F /* Frameworks */,
 				0441C78224EE7C4E00A5E52F /* Resources */,
+				CE26131541A1C35C6F7C56BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0441C79E24EE7C4E00A5E52F /* Build configuration list for PBXNativeTarget "MAJIProjectUITests" */;
 			buildPhases = (
+				23A96B190C114A1526E17BEC /* [CP] Check Pods Manifest.lock */,
 				0441C78B24EE7C4E00A5E52F /* Sources */,
 				0441C78C24EE7C4E00A5E52F /* Frameworks */,
 				0441C78D24EE7C4E00A5E52F /* Resources */,
+				C6ED74EEDACEDD2DD9EFA2B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -383,6 +406,62 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		23A96B190C114A1526E17BEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAJIProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6ED74EEDACEDD2DD9EFA2B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAJIProjectUITests/Pods-MAJIProjectUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAJIProjectUITests/Pods-MAJIProjectUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAJIProjectUITests/Pods-MAJIProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE26131541A1C35C6F7C56BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAJIProjectTests/Pods-MAJIProjectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MAJIProjectTests/Pods-MAJIProjectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAJIProjectTests/Pods-MAJIProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EF8C7153B10E23D834FB3E9B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -398,6 +477,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MAJIProject/Pods-MAJIProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F49AA5EC8CF7C1D7DDAB2AF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAJIProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -429,6 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0441C78924EE7C4E00A5E52F /* MAJIProjectTests.swift in Sources */,
+				B87BD82624F0184800F15172 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,13 +736,14 @@
 		};
 		0441C79C24EE7C4E00A5E52F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28661B31DDA42396BCE8CEF /* Pods-MAJIProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 849Q9294D2;
 				INFOPLIST_FILE = MAJIProjectTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -656,13 +759,14 @@
 		};
 		0441C79D24EE7C4E00A5E52F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AA11E53778937CBB7322A3 /* Pods-MAJIProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 849Q9294D2;
 				INFOPLIST_FILE = MAJIProjectTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -678,6 +782,7 @@
 		};
 		0441C79F24EE7C4E00A5E52F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BAD45F600685ED22E631D0C /* Pods-MAJIProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -698,6 +803,7 @@
 		};
 		0441C7A024EE7C4E00A5E52F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A697249D24937BF5B19821 /* Pods-MAJIProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

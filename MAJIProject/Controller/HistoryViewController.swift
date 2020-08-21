@@ -128,7 +128,6 @@ extension HistoryViewController {
 extension HistoryViewController {
     
     func addHeadRefresh()  {
-        
         tableView.mj_header = RefreshHeader.init(refreshingBlock: { [weak self] in
             self?.refreshData()
         })

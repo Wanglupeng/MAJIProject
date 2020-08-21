@@ -1,0 +1,1 @@
+../../../Target Support Files/Alamofire-library-iOS11.0/Alamofire-library-iOS11.0-umbrella.h

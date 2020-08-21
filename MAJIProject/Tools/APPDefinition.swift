@@ -60,11 +60,5 @@ public func timeStampToString(timeStamp: String,dataFormat: String)->String {
     return dfmatter.string(from: date as Date)
 }
 
-// 打印
-public func LLog<T>(_ message: T,time:Date = Date(),fileName: String = #file, methodName: String =  #function, lineNumber: Int = #line){
-    #if DEBUG
-    let str : String = (fileName as NSString).pathComponents.last!.replacingOccurrences(of: "swift", with: "")
-    print("\(time)  \(str)\(methodName)  [\(lineNumber)]:\(message)")
-    #endif
-}
+
 

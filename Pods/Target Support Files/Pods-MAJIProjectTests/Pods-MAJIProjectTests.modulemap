@@ -1,0 +1,6 @@
+module Pods_MAJIProjectTests {
+  umbrella header "Pods-MAJIProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

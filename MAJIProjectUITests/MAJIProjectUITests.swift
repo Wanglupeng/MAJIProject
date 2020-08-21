@@ -27,9 +27,16 @@ class MAJIProjectUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
+        
+        
+        let tablesQuery = app.tables
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["rate_limit_url"]/*[[".cells.staticTexts[\"rate_limit_url\"]",".staticTexts[\"rate_limit_url\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.swipeUp()
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["current_user_repositories_url"]/*[[".cells.staticTexts[\"current_user_repositories_url\"]",".staticTexts[\"current_user_repositories_url\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.swipeDown()
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["issue_search_url"]/*[[".cells.staticTexts[\"issue_search_url\"]",".staticTexts[\"issue_search_url\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["user_organizations_url"]/*[[".cells.staticTexts[\"user_organizations_url\"]",".staticTexts[\"user_organizations_url\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.swipeDown()
+        app.navigationBars["MAJIProject.View"].buttons["History"].tap()
+        app.navigationBars["MAJIProject.HistoryView"].buttons["Back"].tap()
 
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
     func testLaunchPerformance() throws {
