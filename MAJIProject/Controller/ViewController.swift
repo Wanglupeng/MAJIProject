@@ -114,7 +114,7 @@ extension ViewController {
     }
   
     func showErrorView()  {
-        let view = UIAlertController.init(title: "", message: "can not get api data", preferredStyle: .alert)
+        let view = UIAlertController.init(title: "", message: "can not get api data, please try later", preferredStyle: .alert)
         view.addAction(UIAlertAction.init(title: "ok", style: UIAlertAction.Style.default, handler: { (action) in
         }))
         self.present(view, animated: true, completion: nil)
