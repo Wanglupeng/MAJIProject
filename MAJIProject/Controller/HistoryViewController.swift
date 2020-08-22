@@ -28,6 +28,7 @@ class HistoryViewController: BaseTableViewController {
     var receiveDataCount = 0
     
     override func viewDidLoad() {
+        self.title = "History ViewController"
         super.viewDidLoad()
         loadHistoryData()
         addObverve()

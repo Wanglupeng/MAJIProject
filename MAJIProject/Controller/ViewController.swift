@@ -33,12 +33,12 @@ class ViewController: BaseTableViewController {
     }()
     
     override func viewDidLoad() {
+        self.title = "Home ViewController"
         super.viewDidLoad()
         initTimer()
         readSqlData()
         createRightItem(title: "History")
         createActivityIndicatorView()
-//        activityview.startAnimating()
     }
 }
 
@@ -114,7 +114,7 @@ extension ViewController {
     }
   
     func showErrorView()  {
-        let view = UIAlertController.init(title: "", message: "netWork is Error", preferredStyle: .alert)
+        let view = UIAlertController.init(title: "", message: "can not get api data", preferredStyle: .alert)
         view.addAction(UIAlertAction.init(title: "ok", style: UIAlertAction.Style.default, handler: { (action) in
         }))
         self.present(view, animated: true, completion: nil)
