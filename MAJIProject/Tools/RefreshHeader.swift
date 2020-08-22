@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class RefreshHeader: MJRefreshNormalHeader {
     override func prepare() {
         super.prepare()
