@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0413C0BC24F0B64D00361B07 /* HistoryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413C0BB24F0B64D00361B07 /* HistoryViewControllerTests.swift */; };
+		0413C0FA24F0C09700361B07 /* MAJIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413C0F924F0C09700361B07 /* MAJIServiceTests.swift */; };
 		0441C77224EE7C4C00A5E52F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C77124EE7C4C00A5E52F /* AppDelegate.swift */; };
 		0441C77624EE7C4C00A5E52F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C77524EE7C4C00A5E52F /* ViewController.swift */; };
 		0441C77924EE7C4C00A5E52F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441C77724EE7C4C00A5E52F /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		0441C77E24EE7C4E00A5E52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441C77C24EE7C4E00A5E52F /* LaunchScreen.storyboard */; };
 		0441C78924EE7C4E00A5E52F /* MAJIProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C78824EE7C4E00A5E52F /* MAJIProjectTests.swift */; };
 		0441C79424EE7C4E00A5E52F /* MAJIProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441C79324EE7C4E00A5E52F /* MAJIProjectUITests.swift */; };
+		0481A25824F0FEB300FCE1CA /* ViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A25724F0FEB300FCE1CA /* ViewControllerUITests.swift */; };
+		0481A25A24F102C300FCE1CA /* HistoryViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481A25924F102C300FCE1CA /* HistoryViewControllerUITests.swift */; };
+		0483FDAA24F0F02800121040 /* BaseTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483FDA924F0F02800121040 /* BaseTableViewControllerTests.swift */; };
+		0483FDAC24F0F0F800121040 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483FDAB24F0F0F800121040 /* ViewControllerTests.swift */; };
 		04C761D724EF63D6003A9C8F /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C761D624EF63D6003A9C8F /* BaseTableViewController.swift */; };
 		04C761D924EF695B003A9C8F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C761D824EF695B003A9C8F /* HistoryViewController.swift */; };
 		04C761DC24EF9D7F003A9C8F /* ShowUrlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C761DA24EF9D7F003A9C8F /* ShowUrlTableViewCell.swift */; };
@@ -24,7 +30,6 @@
 		119F39F5E87872F86AB293E3 /* libPods-MAJIProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB51BB95342456E2D76F458 /* libPods-MAJIProjectUITests.a */; };
 		7DD10143B79185D762A81D54 /* libPods-MAJIProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1BFEB91AA02A6A42501FAF /* libPods-MAJIProjectTests.a */; };
 		AD6DD97B0464FB39EA96570D /* Pods_MAJIProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013CC7EEC5826898D5D71670 /* Pods_MAJIProject.framework */; };
-		B87BD82624F0184800F15172 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BD82524F0184800F15172 /* HistoryViewController.swift */; };
 		B8EC66DF24EEAACB0046C3DB /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66DE24EEAACB0046C3DB /* NetworkClient.swift */; };
 		B8EC66E324EEB0390046C3DB /* MAJIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66E224EEB0390046C3DB /* MAJIService.swift */; };
 		B8EC66E524EEB5F50046C3DB /* BaseRequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EC66E424EEB5F50046C3DB /* BaseRequestAPI.swift */; };
@@ -52,6 +57,8 @@
 
 /* Begin PBXFileReference section */
 		013CC7EEC5826898D5D71670 /* Pods_MAJIProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAJIProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0413C0BB24F0B64D00361B07 /* HistoryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewControllerTests.swift; sourceTree = "<group>"; };
+		0413C0F924F0C09700361B07 /* MAJIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAJIServiceTests.swift; sourceTree = "<group>"; };
 		0441C76E24EE7C4C00A5E52F /* MAJIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAJIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0441C77124EE7C4C00A5E52F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0441C77524EE7C4C00A5E52F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +72,10 @@
 		0441C78F24EE7C4E00A5E52F /* MAJIProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAJIProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0441C79324EE7C4E00A5E52F /* MAJIProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAJIProjectUITests.swift; sourceTree = "<group>"; };
 		0441C79524EE7C4E00A5E52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0481A25724F0FEB300FCE1CA /* ViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUITests.swift; sourceTree = "<group>"; };
+		0481A25924F102C300FCE1CA /* HistoryViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewControllerUITests.swift; sourceTree = "<group>"; };
+		0483FDA924F0F02800121040 /* BaseTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewControllerTests.swift; sourceTree = "<group>"; };
+		0483FDAB24F0F0F800121040 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		04C761D624EF63D6003A9C8F /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		04C761D824EF695B003A9C8F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		04C761DA24EF9D7F003A9C8F /* ShowUrlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShowUrlTableViewCell.swift; path = MAJIProject/Controller/ShowUrlTableViewCell.swift; sourceTree = SOURCE_ROOT; };
@@ -76,7 +87,6 @@
 		6EB51BB95342456E2D76F458 /* libPods-MAJIProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MAJIProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		752080B1ED49CEB3EBFCFAE1 /* Pods-MAJIProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAJIProject.debug.xcconfig"; path = "Target Support Files/Pods-MAJIProject/Pods-MAJIProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A8BB3959B2FF85EC728CE6F4 /* Pods-MAJIProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAJIProject.release.xcconfig"; path = "Target Support Files/Pods-MAJIProject/Pods-MAJIProject.release.xcconfig"; sourceTree = "<group>"; };
-		B87BD82524F0184800F15172 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		B8EC66D524EEA3EF0046C3DB /* MAJIProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MAJIProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		B8EC66DE24EEAACB0046C3DB /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		B8EC66E224EEB0390046C3DB /* MAJIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAJIService.swift; sourceTree = "<group>"; };
@@ -163,7 +173,10 @@
 			children = (
 				0441C78824EE7C4E00A5E52F /* MAJIProjectTests.swift */,
 				0441C78A24EE7C4E00A5E52F /* Info.plist */,
-				B87BD82524F0184800F15172 /* HistoryViewController.swift */,
+				0413C0BB24F0B64D00361B07 /* HistoryViewControllerTests.swift */,
+				0413C0F924F0C09700361B07 /* MAJIServiceTests.swift */,
+				0483FDA924F0F02800121040 /* BaseTableViewControllerTests.swift */,
+				0483FDAB24F0F0F800121040 /* ViewControllerTests.swift */,
 			);
 			path = MAJIProjectTests;
 			sourceTree = "<group>";
@@ -173,6 +186,8 @@
 			children = (
 				0441C79324EE7C4E00A5E52F /* MAJIProjectUITests.swift */,
 				0441C79524EE7C4E00A5E52F /* Info.plist */,
+				0481A25724F0FEB300FCE1CA /* ViewControllerUITests.swift */,
+				0481A25924F102C300FCE1CA /* HistoryViewControllerUITests.swift */,
 			);
 			path = MAJIProjectUITests;
 			sourceTree = "<group>";
@@ -529,8 +544,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0483FDAC24F0F0F800121040 /* ViewControllerTests.swift in Sources */,
+				0413C0BC24F0B64D00361B07 /* HistoryViewControllerTests.swift in Sources */,
 				0441C78924EE7C4E00A5E52F /* MAJIProjectTests.swift in Sources */,
-				B87BD82624F0184800F15172 /* HistoryViewController.swift in Sources */,
+				0483FDAA24F0F02800121040 /* BaseTableViewControllerTests.swift in Sources */,
+				0413C0FA24F0C09700361B07 /* MAJIServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +556,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0481A25824F0FEB300FCE1CA /* ViewControllerUITests.swift in Sources */,
+				0481A25A24F102C300FCE1CA /* HistoryViewControllerUITests.swift in Sources */,
 				0441C79424EE7C4E00A5E52F /* MAJIProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

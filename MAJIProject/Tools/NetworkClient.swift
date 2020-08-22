@@ -12,7 +12,7 @@ import Alamofire
 class NetworkClient: NSObject {
     static let manager = NetworkClient()
  
-    func requestWithAPI(Api: BaseRequestAPI , _ successResponse:((Any)->Void)?, _ errorResponse:((Error)->Void)?)  {
+    func requestWithAPI(Api: BaseRequestAPI , _ successResponse:((Any)->Void)?, _ errorResponse:((Error?)->Void)?)  {
         var requestData: DataRequest?
         switch Api.APIMethod {
         case .Get:
@@ -25,6 +25,7 @@ class NetworkClient: NSObject {
         }
         
         guard let request = requestData else {
+            errorResponse?(nil)
             return
         }
        

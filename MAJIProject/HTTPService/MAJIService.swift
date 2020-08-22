@@ -24,14 +24,14 @@ class MAJIService: NSObject {
         api.APIParams = nil
         api.APIUrl = RequestUrlDomain
         NetworkClient.manager.requestWithAPI(Api: api, { (successData) in
-            self.resoveData(data: successData)
+            let _ = self.resoveData(data: successData)
         }) { (errorData) in
             self.delegate?.requestHomeDataResponse?(isSuc: false, message: DefaultErrorMsg, successData: nil)
         }
     }
     
     //解析数据
-    private func resoveData(data: Any)  {
+    func resoveData(data: Any) ->[HomeModel]?{
         var resultArray = [HomeModel]()
         if let data = data as? Dictionary<String,AnyObject> {
             let time = getNowTimeStamp()
@@ -39,7 +39,7 @@ class MAJIService: NSObject {
                 let model = HomeModel.init(key: item.key, value: item.value)
                 model.currentTime = time
                 if item.key.contains("documentation_url") || item.key.contains("message") {
-                    return
+                    return nil
                 }
                 resultArray.append(model)
             }
@@ -47,5 +47,6 @@ class MAJIService: NSObject {
         //Save to db
         FMDBManager.manager.insertDataToTable(datas: resultArray)
         self.delegate?.requestHomeDataResponse?(isSuc: true, message: DefaultSuccessMsg, successData: resultArray)
+        return resultArray
     }
 }

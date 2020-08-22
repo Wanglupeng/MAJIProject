@@ -1,19 +1,19 @@
 //
-//  HistoryViewController.swift
+//  ViewControllerTests.swift
 //  MAJIProjectTests
 //
-//  Created by Peng on 2020/8/21.
+//  Created by Mac on 2020/8/22.
 //  Copyright © 2020 Mac. All rights reserved.
 //
 
 import XCTest
 @testable import MAJIProject
-class HistoryViewController: XCTestCase {
+class ViewControllerTests: XCTestCase {
 
-    var vc: HistoryViewController?
+    var vc: ViewController?
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        vc = HistoryViewController.init()
+        vc = ViewController()
     }
 
     override func tearDownWithError() throws {
@@ -21,33 +21,23 @@ class HistoryViewController: XCTestCase {
         vc = nil
     }
 
-    func testreceiveData()  {
-        
-//        vc?.testreceiveData()
-        vc?.testcreateReceiveDataLabel()
-    }
-    
-    func testrefreshData()  {
-        print("213")
-    }
-    
-    func testcreateReceiveDataLabel() {
-        
-    }
-    
-    func testaddHeadRefresh()  {
-        
-    }
-  
-    
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        
     }
-   
-   
 
+    func testinitTimer()  {
+        vc?.initTimer()
+        XCTAssertTrue(vc?.timer != nil)
+    }
+    func testhttpService() {
+        vc?.httpService
+        XCTAssertTrue(vc?.httpService != nil)
+    }
+    func testdataArray() {
+          vc?.dataArray
+          XCTAssertTrue(vc?.dataArray != nil)
+      }
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {

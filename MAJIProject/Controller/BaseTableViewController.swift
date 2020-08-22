@@ -77,7 +77,6 @@ extension BaseTableViewController  {
     
     func setUI() {
         createTableView()
-//        createRightItem(title: "History")
         registerCell()
     }
     

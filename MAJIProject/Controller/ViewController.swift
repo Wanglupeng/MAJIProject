@@ -22,12 +22,23 @@ class ViewController: BaseTableViewController {
     var timer: Timer?
     //间隔时间
     var timerInterVal = 5
+    
+    lazy var activityview: UIActivityIndicatorView = {
+        let view = UIActivityIndicatorView.init(frame: CGRect.init(x: 0, y: 0, width: 50, height: 50))
+        view.backgroundColor = UIColor.gray
+        view.style = .whiteLarge
+        view.color = UIColor.white
+        view.hidesWhenStopped = true
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        initTimer()
+        initTimer()
         readSqlData()
-        requestData()
         createRightItem(title: "History")
+        createActivityIndicatorView()
+//        activityview.startAnimating()
     }
 }
 
@@ -55,13 +66,17 @@ extension ViewController: MAJIServiceDelegate {
     
     func requestData()  {
         httpService.requestHomeData()
+        activityview.startAnimating()
     }
     
     func requestHomeDataResponse(isSuc: Bool, message: String, successData: [HomeModel]?) {
+        activityview.stopAnimating()
         if isSuc {
             dataArray = successData!
             self.tableView.reloadData()
             postNoti()
+        }else {
+            showErrorView()
         }
     }
 }
@@ -91,3 +106,17 @@ extension ViewController {
     }
 }
 
+// MARK: -UI
+extension ViewController {
+    func createActivityIndicatorView() {
+        self.view.addSubview(activityview)
+        activityview.center = self.view.center
+    }
+  
+    func showErrorView()  {
+        let view = UIAlertController.init(title: "", message: "netWork is Error", preferredStyle: .alert)
+        view.addAction(UIAlertAction.init(title: "ok", style: UIAlertAction.Style.default, handler: { (action) in
+        }))
+        self.present(view, animated: true, completion: nil)
+    }
+}
