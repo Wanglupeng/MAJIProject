@@ -22,7 +22,9 @@ public struct RequestMethod: RawRepresentable, Equatable, Hashable {
         self.rawValue = rawValue
     }
 }
+
 public let DefaultErrorMsg = "NETWORK ERROR "
+
 public let DefaultSuccessMsg = "SUCCESSMSG"
 
 // MARK: -UI

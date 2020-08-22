@@ -9,11 +9,14 @@
 import UIKit
 
 @objc protocol MAJIServiceDelegate: NSObjectProtocol {
+    
     @objc optional func requestHomeDataResponse(isSuc: Bool, message: String ,successData: [HomeModel]?)
 }
 
 class MAJIService: NSObject {
+    
     fileprivate var delegate: MAJIServiceDelegate?
+    
     init(del:MAJIServiceDelegate) {
         delegate = del
     }

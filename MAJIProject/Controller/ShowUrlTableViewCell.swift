@@ -19,8 +19,13 @@ class ShowUrlTableViewCell: UITableViewCell {
         valueLabel.lineBreakMode = .byTruncatingMiddle
     }
     
-    func configData(model:HomeModel)  {
+    func configData(model:HomeModel, indexpathSection: Int)  {
         titlelabel.text = model.urlName
         valueLabel.text = model.urlStr
+        if indexpathSection == 0 { //最新的数据 放到了最上层 所以第一组 就是最新的数据
+            self.backgroundColor = UIColor.red.withAlphaComponent(0.1)
+        }else {
+            self.backgroundColor = UIColor.white
+        }
     }
 }

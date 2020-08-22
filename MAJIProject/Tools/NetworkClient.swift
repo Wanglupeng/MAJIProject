@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 
 class NetworkClient: NSObject {
+    
     static let manager = NetworkClient()
  
     func requestWithAPI(Api: BaseRequestAPI , _ successResponse:((Any)->Void)?, _ errorResponse:((Error?)->Void)?)  {
@@ -40,7 +41,6 @@ class NetworkClient: NSObject {
             }
         }
     }
-    
 }
 
 

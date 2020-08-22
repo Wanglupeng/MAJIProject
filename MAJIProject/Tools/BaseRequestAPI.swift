@@ -8,7 +8,6 @@
 
 import UIKit
 
-
 class BaseRequestAPI: NSObject {
     var APIUrl: String = ""
     var APIParams: [String: Any]?

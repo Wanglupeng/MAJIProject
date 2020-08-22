@@ -28,13 +28,11 @@ class FMDBManager: NSObject {
             "urlStr TEXT ,\n" +
             "timeStamp TEXT \n" +
         "); \n"
-        
         // 执行SQL语句
         dbQueue!.inDatabase { (db) in
             db.executeUpdate(sql, withArgumentsIn: [])
         }
     }
-    
     
     func insertDataToTable(datas: [HomeModel])  {
         if datas.count == 0 {return}
@@ -91,6 +89,5 @@ class FMDBManager: NSObject {
             }
         })
     }
-    
-    
+
 }
